@@ -77,11 +77,16 @@ export const Navbar = () => {
 				</div>
 			</header>
 
-			{isMenuOpen && (
-				<div className="border-t border-separator 2xl:hidden">
-					<NavMenu className="flex flex-col gap-4 px-4 py-5 items-center" />
-				</div>
-			)}
+			<div
+				className={`overflow-hidden border-t border-separator 2xl:hidden transition-all duration-300 ease-in-out 
+					${
+						isMenuOpen
+							? "max-h-96 opacity-100 translate-y-0"
+							: "max-h-0 opacity-0 -translate-y-2 border-t-0"
+					}`}
+			>
+				<NavMenu className="flex flex-col gap-4 px-4 py-5 items-center" />
+			</div>
 		</nav>
 	);
 };
