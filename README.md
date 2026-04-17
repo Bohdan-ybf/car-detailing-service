@@ -1,6 +1,6 @@
 ## Logo
 
-![App Logo](https://www.dcservice.com.ua/wp-content/themes/detailingCSCustom/assets/images/xlogo-service.png.pagespeed.ic.pQOoZSBLAZ.webp)
+![App Logo](https://tuning.themerex.net/wp-content/uploads/2024/07/img-002-copyright.jpg)
 
 # Car Detailing Service — Frontend
 
