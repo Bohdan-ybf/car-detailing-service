@@ -1,5 +1,3 @@
-## Logo
-
 ![App Logo](https://tuning.themerex.net/wp-content/uploads/2024/07/img-002-copyright.jpg)
 
 # Car Detailing Service — Frontend
