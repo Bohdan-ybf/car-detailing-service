@@ -1,6 +1,6 @@
 ## Logo
 
-![App Logo](./assets/logo.svg)
+![App Logo](https://www.dcservice.com.ua/wp-content/themes/detailingCSCustom/assets/images/xlogo-service.png.pagespeed.ic.pQOoZSBLAZ.webp)
 
 # Car Detailing Service — Frontend
 
