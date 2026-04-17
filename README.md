@@ -1,39 +1,182 @@
-# Vite & HeroUI Template
+## Logo
 
-This is a template for creating applications using Vite and HeroUI (v3).
+![App Logo](./assets/logo.svg)
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/vite-template)
+# Car Detailing Service — Frontend
 
-## Technologies Used
+Modern frontend application for a **Car Detailing Service** website built with **React, Vite, HeroUI and Tailwind CSS**.
+The project provides a scalable UI foundation with clean architecture, reusable components and consistent code formatting.
 
-- [Vite](https://vitejs.dev/guide/)
-- [HeroUI v3](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
+---
 
-## How to Use
+## Overview
 
-To clone the project, run the following command:
+This project is designed as a frontend foundation for a car detailing business.
+It focuses on performance, maintainability, and developer experience.
+
+Key goals:
+
+* Clean component architecture
+* Reusable UI components
+* Modern styling with Tailwind
+* Fast development workflow with Vite
+* Consistent code formatting with Biome
+
+---
+
+## Tech Stack
+
+* **Vite** — fast development server and build tool
+* **React** — UI library
+* **HeroUI v3** — component library
+* **Tailwind CSS v4** — utility-first styling
+* **TypeScript** — type safety
+* **Biome** — formatter and linter
+
+---
+
+## Project Structure
 
 ```bash
-git clone https://github.com/heroui-inc/vite-template.git
+src/
+  components/     # Reusable UI components
+  layouts/        # Layout components (Navbar, Footer, etc.)
+  pages/          # Application pages
+  styles/         # Global styles
+  config/         # App configuration
+  types/          # TypeScript types
 ```
 
-### Install dependencies
+---
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+cd car-detailing-service
+```
+
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### Run the development server
+---
+
+## Development
+
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
+The app will be available at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## Available Scripts
+
+### Start development server
+
+```bash
+npm run dev
+```
+
+Runs Vite in development mode with hot reload.
+
+---
+
+### Build production version
+
+```bash
+npm run build
+```
+
+This command:
+
+1. Runs TypeScript type checking
+2. Builds optimized production bundle
+
+Output folder:
+
+```bash
+dist/
+```
+
+---
+
+Formats all project files using Biome.
+
+Equivalent to:
+
+```bash
+npx biome format . --write
+```
+
+---
+
+### Fix lint and formatting issues
+
+```bash
+npm run fix
+```
+
+Automatically fixes:
+
+* formatting
+* lint issues
+* import order
+
+---
+
+## Code Formatting
+
+This project uses **Biome** for formatting and linting.
+
+To format the entire project:
+
+```bash
+npm run format
+```
+
+To fix issues automatically:
+
+```bash
+npm run fix
+```
+
+---
+
+Example:
+
+```css
+:root {
+  --background: #050505;
+  --foreground: #ffffff;
+}
+```
+
+---
+
+## Recommended VS Code Settings
+
+```json
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome"
+}
+```
+
+---
+
 ## License
 
-Licensed under the [MIT license](https://github.com/heroui-inc/vite-template/blob/main/LICENSE).
+MIT License

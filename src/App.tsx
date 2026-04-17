@@ -1,21 +1,27 @@
 import { Route, Routes } from "react-router-dom";
 
 import IndexPage from "@/pages/index";
-import DocsPage from "@/pages/docs";
+import ServicePage from "@/pages/service";
 import PricingPage from "@/pages/pricing";
-import BlogPage from "@/pages/blog";
+import GalleryPage from "@/pages/gallery";
 import AboutPage from "@/pages/about";
+import ActionsPage from "@/pages/actions";
+import ContactPage from "@/pages/contact";
+import NotFoundPage from "@/pages/not-found";
 
 function App() {
-  return (
-    <Routes>
-      <Route element={<IndexPage />} path="/" />
-      <Route element={<DocsPage />} path="/docs" />
-      <Route element={<PricingPage />} path="/pricing" />
-      <Route element={<BlogPage />} path="/blog" />
-      <Route element={<AboutPage />} path="/about" />
-    </Routes>
-  );
+	return (
+		<Routes>
+			<Route element={<IndexPage />} path="/" />
+			<Route element={<ServicePage />} path="/service" />
+			<Route element={<PricingPage />} path="/pricing" />
+			<Route element={<GalleryPage />} path="/gallery" />
+			<Route element={<AboutPage />} path="/about" />
+			<Route element={<ActionsPage />} path="/actions" />
+			<Route element={<ContactPage />} path="/contact" />
+			<Route element={<NotFoundPage />} path="*" />
+		</Routes>
+	);
 }
 
 export default App;
