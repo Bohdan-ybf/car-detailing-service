@@ -12,7 +12,7 @@ export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	return (
-		<nav className="sticky top-0 z-40 w-full">
+		<nav className="sticky top-0 z-40 w-full bg-background">
 			<header className="container mx-auto flex items-center justify-between gap-4 py-5 px-7">
 				<Link href="/" className="flex items-center gap-1 hidden 2xl:flex">
 					<Logo />
