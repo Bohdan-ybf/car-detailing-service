@@ -4,6 +4,12 @@ export const siteConfig = {
 	name: "Vite + HeroUI",
 	description: "Make beautiful websites regardless of your design experience.",
 	phone: "+38 096 220 2020",
+	adress: "м. Київ, вул. Олега Афанаса, 2",
+	hours: {
+		monToFri: "09:00-20:00",
+		sat: "09:00-15:00",
+		sun: "Вихідний",
+	},
 	navItems: [
 		{
 			label: "Головна",

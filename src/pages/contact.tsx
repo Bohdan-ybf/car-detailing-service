@@ -7,6 +7,7 @@ import { PageBanner } from "@/components/PageBanner";
 import { TelegramLink } from "@/components/social/TelegramLink";
 import { ViberLink } from "@/components/social/ViberLink";
 import { InstagramLink } from "@/components/social/InstagramLink";
+import { siteConfig } from "@/config/site";
 
 export default function ContactPage() {
 	return (
@@ -21,10 +22,10 @@ export default function ContactPage() {
 							<div>
 								<h3 className="text-lg font-semibold mb-3">Контакти</h3>
 								<a
-									href="tel:+380962202020"
+									href={`tel:${siteConfig.phone}`}
 									className=" text-lg block hover:text-accent transition-colors"
 								>
-									+38 096 220 20 20
+									{siteConfig.phone}
 								</a>
 								<a
 									href="https://maps.app.goo.gl/YwxqpNzysGaUvjmJ6"
@@ -32,16 +33,16 @@ export default function ContactPage() {
 									rel="noopener noreferrer"
 									className=" text-lg block hover:text-accent transition-colors"
 								>
-									м. Київ, вул. Олега Афанаса, 2
+									{siteConfig.adress}
 								</a>
 							</div>
 
 							<div>
 								<h3 className="text-lg font-semibold mb-3">Графік роботи</h3>
 
-								<p className="text-lg">Пн-Пт: 09:00-20:00</p>
-								<p className="text-lg">Сб: 09:00-15:00</p>
-								<p className="text-lg">Нд: Вихідний</p>
+								<p className="text-lg">Пн-Пт: {siteConfig.hours.monToFri}</p>
+								<p className="text-lg">Сб: {siteConfig.hours.sat}</p>
+								<p className="text-lg">Нд: {siteConfig.hours.sun}</p>
 							</div>
 
 							<div className="border-t border-white/10" />
