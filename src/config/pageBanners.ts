@@ -1,5 +1,5 @@
 export type PageBannerKey =
-	| "pricing"
+	| "price"
 	| "service"
 	| "contact"
 	| "actions"
@@ -13,7 +13,7 @@ export type PageBannerItem = {
 };
 
 export const pageBanners: Record<PageBannerKey, PageBannerItem> = {
-	pricing: {
+	price: {
 		title: "ПРАЙСИ",
 		image: "/images/banners/gallery-bg.webp",
 		alt: "Прайси",

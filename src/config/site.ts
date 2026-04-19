@@ -15,7 +15,7 @@ export const siteConfig = {
 		},
 		{
 			label: "Прайси",
-			href: "/pricing",
+			href: "/price",
 		},
 		{
 			label: "Галерея",

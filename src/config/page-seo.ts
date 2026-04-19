@@ -33,11 +33,11 @@ export const pageSeo = {
 			"Подивіться фото до та після! Результати полірування, хімчистки, захисту кузова. Довірте своє авто професіоналам.",
 		url: `${siteUrl}/gallery`,
 	},
-	pricing: {
+	price: {
 		title: "Ціни на детейлінг авто у Києві | Detailing Car Service",
 		description:
 			"Дізнайтеся вартість полірування, хімчистки, керамічного покриття та інших послуг. Найкраща якість за чесну ціну!",
-		url: `${siteUrl}/pricing`,
+		url: `${siteUrl}/price`,
 	},
 	service: {
 		title: "Послуги детейлінгу авто – Київ | Detailing Car Service",

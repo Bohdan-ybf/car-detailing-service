@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import IndexPage from "@/pages/index";
 import ServicePage from "@/pages/service";
-import PricingPage from "@/pages/pricing";
+import PricePage from "@/pages/price";
 import GalleryPage from "@/pages/gallery";
 import AboutPage from "@/pages/about";
 import ActionsPage from "@/pages/actions";
@@ -14,7 +14,7 @@ function App() {
 		<Routes>
 			<Route element={<IndexPage />} path="/" />
 			<Route element={<ServicePage />} path="/service" />
-			<Route element={<PricingPage />} path="/pricing" />
+			<Route element={<PricePage />} path="/price" />
 			<Route element={<GalleryPage />} path="/gallery" />
 			<Route element={<AboutPage />} path="/about" />
 			<Route element={<ActionsPage />} path="/actions" />
