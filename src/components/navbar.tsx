@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { Link } from "@heroui/react";
-import { NavMenu } from "@/components/nav-menu";
+import { NavMenu } from "@/components/NavMenu";
 import { siteConfig } from "@/config/site";
-import { Logo, PhoneIcon } from "@/components/icons";
+import { Logo, PhoneIcon } from "@/components/Icons";
 import { TelegramLink } from "@/components/social/TelegramLink";
 import { ViberLink } from "@/components/social/ViberLink";
 

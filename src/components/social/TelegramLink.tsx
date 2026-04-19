@@ -1,4 +1,4 @@
-import { TelegramIcon } from "@/components/icons";
+import { TelegramIcon } from "@/components/Icons";
 
 type Props = {
 	size?: number;

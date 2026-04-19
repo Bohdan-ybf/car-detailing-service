@@ -1,4 +1,4 @@
-import { ViberIcon } from "@/components/icons";
+import { ViberIcon } from "@/components/Icons";
 
 type Props = {
 	size?: number;

@@ -1,5 +1,5 @@
 import { Link } from "@heroui/react";
-import { NavMenu } from "@/components/nav-menu";
+import { NavMenu } from "@/components/NavMenu";
 import { InstagramLink } from "./social/InstagramLink";
 import { ViberLink } from "./social/ViberLink";
 import { TelegramLink } from "./social/TelegramLink";

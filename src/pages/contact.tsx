@@ -1,7 +1,7 @@
 import { Button } from "@heroui/react";
 import { ArrowRight } from "@gravity-ui/icons";
 import DefaultLayout from "@/layouts/default";
-import { Seo } from "@/components/seo";
+import { Seo } from "@/components/Seo";
 import { pageSeo } from "@/config/page-seo";
 import { PageBanner } from "@/components/PageBanner";
 import { TelegramLink } from "@/components/social/TelegramLink";

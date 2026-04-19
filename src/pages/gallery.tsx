@@ -1,6 +1,6 @@
 import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
-import { Seo } from "@/components/seo";
+import { Seo } from "@/components/Seo";
 import { pageSeo } from "@/config/page-seo";
 import { PageBanner } from "@/components/PageBanner";
 

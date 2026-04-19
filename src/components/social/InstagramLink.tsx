@@ -1,4 +1,4 @@
-import { InstagramIcon } from "@/components/icons";
+import { InstagramIcon } from "@/components/Icons";
 
 type Props = {
 	size?: number;
