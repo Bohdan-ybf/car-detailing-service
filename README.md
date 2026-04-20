@@ -80,6 +80,7 @@ http://localhost:5173
 
 ---
 
+
 ## Available Scripts
 
 ### Start development server
@@ -145,14 +146,6 @@ To format the entire project:
 npm run format
 ```
 
-To fix issues automatically:
-
-```bash
-npm run fix
-```
-
----
-
 Example:
 
 ```css
@@ -174,6 +167,10 @@ Example:
 ```
 
 ---
+
+The vercel link:
+
+[Open app](https://car-detailing-service.vercel.app/)
 
 ## License
 
