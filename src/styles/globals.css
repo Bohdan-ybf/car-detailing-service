@@ -31,3 +31,20 @@
 		background: #a30b24;
 	}
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: #fffefe;
+}
+
+.swiper-pagination-bullet-active {
+	background: #fffefe;
+}
+
+.swiper-slide {
+	opacity: 70%;
+}
+
+.swiper-slide.swiper-slide-active {
+	opacity: 100%;
+}

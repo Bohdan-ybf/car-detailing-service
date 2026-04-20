@@ -53,9 +53,12 @@ export default function ContactPage() {
 								<ViberLink label="Viber" />
 							</div>
 
-							<Button className="btn-primary w-full max-w-[245px]">
+							<a
+								href={`tel:${siteConfig.phone}`}
+								className="btn-primary flex w-full max-w-[245px] items-center justify-center"
+							>
 								Зателефонувати
-							</Button>
+							</a>
 						</div>
 
 						<a

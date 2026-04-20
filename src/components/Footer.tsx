@@ -26,7 +26,7 @@ export const Footer = ({ className }: FooterProps) => (
 			<div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
 				<div className="max-w-sm">
 					<div className="mb-3">
-						<Link href="/" className="!block">
+						<Link href="/">
 							<img src={logoUrl} alt="Logo" className="w-[200px] h-auto" />
 						</Link>
 					</div>
