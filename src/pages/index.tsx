@@ -1,7 +1,7 @@
 import { title } from "@/components/primitives";
-import DefaultLayout from "@/layouts/default";
 import { Seo } from "@/components/Seo";
 import { pageSeo } from "@/config/page-seo";
+import DefaultLayout from "@/layouts/default";
 
 export default function IndexPage() {
 	return (

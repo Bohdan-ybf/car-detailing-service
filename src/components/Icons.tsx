@@ -1,10 +1,10 @@
-import { IconSvgProps } from "@/types";
+import InstagramSvg from "@/assets/instagram.svg?react";
 
 import LogoSvg from "@/assets/logo.svg?react";
 import PhoneSvg from "@/assets/phone.svg?react";
 import TelegramSvg from "@/assets/telegram.svg?react";
 import ViberSvg from "@/assets/viber.svg?react";
-import InstagramSvg from "@/assets/instagram.svg?react";
+import type { IconSvgProps } from "@/types";
 
 export const Logo = ({ size = 280, height = 65, ...props }: IconSvgProps) => (
 	<LogoSvg width={size} height={height || size} {...props} />

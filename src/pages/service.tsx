@@ -1,7 +1,7 @@
-import DefaultLayout from "@/layouts/default";
+import { PageBanner } from "@/components/PageBanner";
 import { Seo } from "@/components/Seo";
 import { pageSeo } from "@/config/page-seo";
-import { PageBanner } from "@/components/PageBanner";
+import DefaultLayout from "@/layouts/default";
 
 export default function ServicePage() {
 	return (

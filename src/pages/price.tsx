@@ -1,11 +1,11 @@
-import DefaultLayout from "@/layouts/default";
-import { Seo } from "@/components/Seo";
-import { pageSeo } from "@/config/page-seo";
-import { PageBanner } from "@/components/PageBanner";
-import { serviceCategorie } from "@/config/service-data";
-import Section from "@/components/Section";
 import { Tabs } from "@heroui/react";
 import H2 from "@/components/H2";
+import { PageBanner } from "@/components/PageBanner";
+import Section from "@/components/Section";
+import { Seo } from "@/components/Seo";
+import { pageSeo } from "@/config/page-seo";
+import { serviceCategorie } from "@/config/service-data";
+import DefaultLayout from "@/layouts/default";
 
 export default function PricePage() {
 	return (

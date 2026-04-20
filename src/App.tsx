@@ -1,13 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-
-import IndexPage from "@/pages/index";
-import ServicePage from "@/pages/service";
-import PricePage from "@/pages/price";
-import GalleryPage from "@/pages/gallery";
 import AboutPage from "@/pages/about";
 import ActionsPage from "@/pages/actions";
 import ContactPage from "@/pages/contact";
+import GalleryPage from "@/pages/gallery";
+import IndexPage from "@/pages/index";
 import NotFoundPage from "@/pages/not-found";
+import PricePage from "@/pages/price";
+import ServicePage from "@/pages/service";
 
 function App() {
 	return (

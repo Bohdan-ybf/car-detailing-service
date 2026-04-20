@@ -1,10 +1,10 @@
 import { Link } from "@heroui/react";
-import { NavMenu } from "@/components/NavMenu";
-import { InstagramLink } from "./social/InstagramLink";
-import { ViberLink } from "./social/ViberLink";
-import { TelegramLink } from "./social/TelegramLink";
-import { siteConfig } from "@/config/site";
 import logoUrl from "@/assets/logo.svg";
+import { NavMenu } from "@/components/NavMenu";
+import { siteConfig } from "@/config/site";
+import { InstagramLink } from "./social/InstagramLink";
+import { TelegramLink } from "./social/TelegramLink";
+import { ViberLink } from "./social/ViberLink";
 
 type FooterProps = {
 	className?: string;
@@ -96,6 +96,7 @@ export const Footer = ({ className }: FooterProps) => (
 						href="https://github.com/Bohdan-ybf/car-detailing-service"
 						className="text-accent"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						YBF
 					</a>

@@ -1,6 +1,6 @@
-import DefaultLayout from "@/layouts/default";
-import { Seo } from "@/components/Seo";
 import { Helmet } from "react-helmet-async";
+import { Seo } from "@/components/Seo";
+import DefaultLayout from "@/layouts/default";
 
 export default function NotFoundPage() {
 	return (

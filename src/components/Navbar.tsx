@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
 import { Link } from "@heroui/react";
-import { NavMenu } from "@/components/NavMenu";
-import { siteConfig } from "@/config/site";
+import { useState } from "react";
 import { Logo, PhoneIcon } from "@/components/Icons";
+import { NavMenu } from "@/components/NavMenu";
 import { TelegramLink } from "@/components/social/TelegramLink";
 import { ViberLink } from "@/components/social/ViberLink";
+import { siteConfig } from "@/config/site";
 
 export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,12 +46,14 @@ export const Navbar = () => {
 					</div>
 
 					<button
+						type="button"
 						aria-expanded={isMenuOpen}
 						aria-label="Toggle menu"
 						className="p-2"
 						onClick={() => setIsMenuOpen(!isMenuOpen)}
 					>
 						<svg
+							aria-hidden="true"
 							className="h-6 w-6"
 							fill="none"
 							stroke="currentColor"

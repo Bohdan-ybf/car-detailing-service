@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Vite + HeroUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Detailing Car Service – Професійний детейлінг авто в Києві",
+	description: "Detailing Car Service – Професійний детейлінг авто в Києві",
 	phone: "+38 096 220 2020",
 	adress: "м. Київ, вул. Олега Афанаса, 2",
 	hours: {

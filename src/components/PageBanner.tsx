@@ -1,4 +1,4 @@
-import { pageBanners, type PageBannerKey } from "@/config/pageBanners";
+import { type PageBannerKey, pageBanners } from "@/config/pageBanners";
 
 type PageBannerProps = {
 	bannerKey: PageBannerKey;

@@ -8,7 +8,8 @@
 		"build": "tsc && vite build",
 		"lint": "eslint --fix",
 		"preview": "vite preview",
-		"format": "biome format . --write"
+		"format": "biome format . --write",
+		"fix": "biome check . --write"
 	},
 	"dependencies": {
 		"@gravity-ui/icons": "^2.18.0",

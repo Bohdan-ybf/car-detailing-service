@@ -1,10 +1,10 @@
-import DefaultLayout from "@/layouts/default";
-import { Seo } from "@/components/Seo";
-import { pageSeo } from "@/config/page-seo";
-import Section from "@/components/Section";
 import logoUrl from "@/assets/logo.svg";
-import { SliderSalon } from "@/components/SliderSalon";
 import H2 from "@/components/H2";
+import Section from "@/components/Section";
+import { Seo } from "@/components/Seo";
+import { SliderSalon } from "@/components/SliderSalon";
+import { pageSeo } from "@/config/page-seo";
+import DefaultLayout from "@/layouts/default";
 
 const stats = [
 	{ value: "11 000+", label: "Хімчисток салонів авто" },

@@ -1,12 +1,12 @@
 import { ArrowRight } from "@gravity-ui/icons";
-import DefaultLayout from "@/layouts/default";
-import { Seo } from "@/components/Seo";
-import { pageSeo } from "@/config/page-seo";
 import { PageBanner } from "@/components/PageBanner";
+import { Seo } from "@/components/Seo";
+import { InstagramLink } from "@/components/social/InstagramLink";
 import { TelegramLink } from "@/components/social/TelegramLink";
 import { ViberLink } from "@/components/social/ViberLink";
-import { InstagramLink } from "@/components/social/InstagramLink";
+import { pageSeo } from "@/config/page-seo";
 import { siteConfig } from "@/config/site";
+import DefaultLayout from "@/layouts/default";
 
 export default function ContactPage() {
 	return (
