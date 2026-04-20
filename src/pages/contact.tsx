@@ -1,4 +1,3 @@
-import { Button } from "@heroui/react";
 import { ArrowRight } from "@gravity-ui/icons";
 import DefaultLayout from "@/layouts/default";
 import { Seo } from "@/components/Seo";
