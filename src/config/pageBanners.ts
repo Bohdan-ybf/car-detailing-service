@@ -29,7 +29,7 @@ export const pageBanners: Record<PageBannerKey, PageBannerItem> = {
 		alt: "Контакти",
 	},
 	actions: {
-		title: "АКЦІЇ",
+		title: "Спецпропозиції",
 		image: "/images/banners/action-bg.webp",
 		alt: "Акції",
 	},

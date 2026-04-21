@@ -31,9 +31,9 @@ export default function AboutPage() {
 					</p>
 				</Section>
 			</section>
-			<Section>
-				<SliderSalon />
-			</Section>
+
+			<SliderSalon className="m-16" />
+
 			<section className="bg-white/15 ">
 				<Section>
 					<H2 className="text-center">Невеличка інформація про нас</H2>

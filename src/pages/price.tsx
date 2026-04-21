@@ -54,7 +54,7 @@ export default function PricePage() {
 											<td className="p-4 w-1/2 border-r-1 text-center">
 												{service.name}
 											</td>
-											<td className="p-4 w-1/2 text-center font-semibold whitespace-nowrap">
+											<td className="p-4 w-1/2 text-center font-semibold leading-6 text-white whitespace-pre-line">
 												{service.price}
 											</td>
 										</tr>
