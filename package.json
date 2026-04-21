@@ -16,6 +16,7 @@
 		"@heroui/react": "3.0.2",
 		"@heroui/styles": "3.0.2",
 		"clsx": "2.1.1",
+		"lightgallery": "^2.9.0",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
 		"react-helmet-async": "^3.0.0",
