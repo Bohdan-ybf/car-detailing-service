@@ -4,6 +4,7 @@ import FeaturesIconSvg3 from "@/assets/features-icon-3.svg?react";
 import InstagramSvg from "@/assets/instagram.svg?react";
 import LogoSvg from "@/assets/logo.svg?react";
 import PhoneSvg from "@/assets/phone.svg?react";
+import SurpriseIconSVG from "@/assets/surprise.svg?react";
 import TelegramSvg from "@/assets/telegram.svg?react";
 import ViberSvg from "@/assets/viber.svg?react";
 import type { IconSvgProps } from "@/types";
@@ -54,4 +55,8 @@ export const featuresIcon3 = ({
 	...props
 }: IconSvgProps) => (
 	<FeaturesIconSvg3 width={size || height} height={size || height} {...props} />
+);
+
+export const SurpriseIcon = ({ size = 30, height, ...props }: IconSvgProps) => (
+	<SurpriseIconSVG width={size || height} height={size || height} {...props} />
 );

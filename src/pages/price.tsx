@@ -1,29 +1,41 @@
 import { Tabs } from "@heroui/react";
+import { useState } from "react";
 import H2 from "@/components/H2";
 import { PageBanner } from "@/components/PageBanner";
 import Section from "@/components/Section";
 import { Seo } from "@/components/Seo";
 import { pageSeo } from "@/config/page-seo";
-import { serviceCategorie } from "@/config/service-data";
+import { priceCategorie } from "@/config/price-data";
 import DefaultLayout from "@/layouts/default";
 
 export default function PricePage() {
+	const [activeTab, setActiveTab] = useState(priceCategorie[0].id);
+
+	const handleTabChange = (key: React.Key) => {
+		setActiveTab(key as typeof activeTab);
+
+		window.scrollTo({
+			top: 300,
+			behavior: "smooth",
+		});
+	};
+
 	return (
 		<DefaultLayout>
 			<Seo {...pageSeo.price} />
 			<PageBanner bannerKey="price" />
 			<Section>
-				<H2 className="text-center ">Оберіть категорію</H2>
-				<Tabs>
-					<Tabs.ListContainer>
+				<H2 className="text-center">Оберіть категорію</H2>
+
+				<Tabs selectedKey={activeTab} onSelectionChange={handleTabChange}>
+					<Tabs.ListContainer className="sticky top-26 z-10">
 						<Tabs.List
-							className="rounded-none border-none   bg-neutral-900 border"
+							className="rounded-none border-none bg-neutral-900 border"
 							aria-label="Послуги"
 						>
-							{serviceCategorie.map((category, index) => (
+							{priceCategorie.map((category, index) => (
 								<Tabs.Tab
-									className="py-5 text-lg text-white
-          data-[selected=true]:text-black"
+									className="py-5 text-lg text-white data-[selected=true]:text-black"
 									key={category.id}
 									id={category.id}
 								>
@@ -35,12 +47,12 @@ export default function PricePage() {
 						</Tabs.List>
 					</Tabs.ListContainer>
 
-					{serviceCategorie.map((category) => (
+					{priceCategorie.map((category) => (
 						<Tabs.Panel key={category.id} id={category.id}>
 							<table className="w-full border-collapse">
 								<thead>
 									<tr>
-										<th className="w-1/2 p-4  text-center font-semibold">
+										<th className="w-1/2 p-4 text-center font-semibold">
 											Послуга
 										</th>
 										<th className="w-1/2 p-4 text-center font-semibold">
@@ -49,13 +61,13 @@ export default function PricePage() {
 									</tr>
 								</thead>
 								<tbody>
-									{category.services.map((service) => (
-										<tr key={service.name} className="border even:bg-white/7">
+									{category.prices.map((price) => (
+										<tr key={price.name} className="border even:bg-white/7">
 											<td className="p-4 w-1/2 border-r-1 text-center">
-												{service.name}
+												{price.name}
 											</td>
 											<td className="p-4 w-1/2 text-center font-semibold leading-6 text-white whitespace-pre-line">
-												{service.price}
+												{price.price}
 											</td>
 										</tr>
 									))}

@@ -22,10 +22,10 @@ export const Footer = ({ className }: FooterProps) => (
 	>
 		<div className="absolute inset-0 bg-black/30" />
 
-		<div className="relative container m-auto  p-6 xl:py-8">
+		<div className="relative container m-auto  p-9 xl:p-10">
 			<div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
 				<div className="max-w-sm">
-					<div className="mb-3">
+					<div className="mb-5">
 						<Link href="/">
 							<img src={logoUrl} alt="Logo" className="w-[200px] h-auto" />
 						</Link>

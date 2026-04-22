@@ -41,6 +41,14 @@ export default function GalleryPage() {
 	const openGallery = (index: number) => {
 		lightboxRef.current?.openGallery(index);
 	};
+	const handleTabChange = (key: React.Key) => {
+		setActiveTab(key as typeof activeTab);
+
+		window.scrollTo({
+			top: 300,
+			behavior: "smooth",
+		});
+	};
 
 	return (
 		<DefaultLayout>
@@ -50,13 +58,8 @@ export default function GalleryPage() {
 			<Section>
 				<H2 className="text-center">Оберіть категорію</H2>
 
-				<Tabs
-					selectedKey={activeTab}
-					onSelectionChange={(key) =>
-						setActiveTab(String(key) as typeof activeTab)
-					}
-				>
-					<Tabs.ListContainer>
+				<Tabs selectedKey={activeTab} onSelectionChange={handleTabChange}>
+					<Tabs.ListContainer className="sticky top-26 z-10">
 						<Tabs.List
 							className="rounded-none border-none bg-neutral-900"
 							aria-label="Галерея"

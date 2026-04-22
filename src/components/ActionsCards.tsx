@@ -1,6 +1,7 @@
 "use client";
 
 import { Button, Modal } from "@heroui/react";
+import { SurpriseIcon } from "@/components/Icons";
 import { siteConfig } from "@/config/site";
 
 type ActionCard = {
@@ -15,8 +16,7 @@ const actions: ActionCard[] = [
 	{
 		id: 1,
 		title: "До кожної хімчистки салону авто, мийка кузова в подарунок",
-		image:
-			"https://www.dcservice.com.ua/wp-content/themes/detailingCSCustom/assets/images/xserv-14.jpg.pagespeed.ic.kLLAesnRqX.webp",
+		image: "/images/serv-14.jpg",
 		shortText: "До кожної хімчистки салону авто, мийка кузова в подарунок",
 		fullText: `Комплексний догляд для вашого авто — за ціною однієї послуги!
 
@@ -31,8 +31,7 @@ const actions: ActionCard[] = [
 	{
 		id: 2,
 		title: "Кожній хімчисті авто, озонація салону в подарунок",
-		image:
-			"https://www.dcservice.com.ua/wp-content/themes/detailingCSCustom/assets/images/xserv-10.jpg.pagespeed.ic.RcW3ZbqxpH.webp",
+		image: "/images/serv-10.jpg",
 		shortText: "Кожній хімчистці авто, озонація салону в подарунок",
 		fullText: `Зробіть ваше авто ще більш комфортним і приємним для поїздок! При замовленні послуги хімчистки автомобіля отримуйте озонацію салону в подарунок.
 
@@ -47,8 +46,7 @@ const actions: ActionCard[] = [
 	{
 		id: 3,
 		title: "До кожного полірування авто твердий віск у подарунок",
-		image:
-			"https://www.dcservice.com.ua/wp-content/themes/detailingCSCustom/assets/images/xserv-4.jpeg.pagespeed.ic.M1k4UM7PTi.webp",
+		image: "/images/serv-4.jpg",
 		shortText: "До кожного полірування авто твердий віск у подарунок",
 		fullText: `Після осінніх дощів і зимових морозів ваше авто потребує особливого догляду. Замовте послугу полірування автомобіля в нашому сервісі та отримайте твердий віск у подарунок!
 
@@ -64,8 +62,7 @@ const actions: ActionCard[] = [
 		id: 4,
 		title:
 			"До кожної послуги `керамічне покриття`, озонація та антидощ на скло у подарунок",
-		image:
-			"https://www.dcservice.com.ua/wp-content/themes/detailingCSCustom/assets/images/xserv-8.jpg.pagespeed.ic.2llisv4hmh.webp",
+		image: "/images/serv-8.jpg",
 		shortText:
 			'До кожної послуги "керамічне покриття", озонація та антидощ на скло у подарунок',
 		fullText: `Подаруйте своєму автомобілю бездоганний вигляд та надійний захист! Замовляючи послугу керамічного покриття, отримайте озонацію та антидощ на скло в подарунок!
@@ -96,8 +93,8 @@ export function ActionsCards() {
 									className="h-[200px] w-full object-cover"
 								/>
 
-								<div className="absolute right-4 top-4 flex h-12 w-12 items-center justify-center rounded-full bg-red-600 text-xl text-white shadow-md">
-									🎁
+								<div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-red-600 text-xl text-white shadow-md">
+									<SurpriseIcon />
 								</div>
 							</div>
 
@@ -111,11 +108,11 @@ export function ActionsCards() {
 
 					<Modal.Backdrop className="bg-black/50 backdrop-blur-xs">
 						<Modal.Container>
-							<Modal.Dialog className="mx-4 w-full max-w-[650px] max-h-[80vh] rounded-2xl bg-neutral-800 p-0">
+							<Modal.Dialog className="mx-4 w-full max-w-[600px] max-h-[80vh] rounded-2xl bg-neutral-800 p-0">
 								<Modal.CloseTrigger />
 
 								<div className="flex max-h-[90vh] flex-col overflow-hidden rounded-2xl">
-									<div className="h-[180px] sm:h-[220px] md:h-[240px] w-full flex-shrink-0">
+									<div className="h-[180px] sm:h-[220px] md:h-[250px] w-full flex-shrink-0">
 										<img
 											src={item.image}
 											alt={item.title}

@@ -18,7 +18,7 @@ export default function IndexPage() {
 				</div>
 			</section>
 
-			<section className="bg-white/15 pb-24">
+			<section className="bg-[#17181a] pb-24">
 				<Section>
 					<Features />
 				</Section>

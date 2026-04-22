@@ -54,7 +54,7 @@ export default function ContactPage() {
 
 							<a
 								href={`tel:${siteConfig.phone}`}
-								className="btn-primary flex w-full max-w-[245px] items-center justify-center"
+								className="btn-primary flex w-full md:w-[245px] items-center justify-center"
 							>
 								Зателефонувати
 							</a>

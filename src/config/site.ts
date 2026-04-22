@@ -5,6 +5,7 @@ export const siteConfig = {
 	description: "Detailing Car Service – Професійний детейлінг авто в Києві",
 	phone: "+38 096 220 2020",
 	adress: "м. Київ, вул. Олега Афанаса, 2",
+	telegram: "https://t.me/D_C_service",
 	hours: {
 		monToFri: "09:00-20:00",
 		sat: "09:00-15:00",

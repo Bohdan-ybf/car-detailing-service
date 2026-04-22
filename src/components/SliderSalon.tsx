@@ -10,18 +10,18 @@ type SliderSalonProps = {
 };
 
 const images = [
-	"https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon1-scaled.webp",
-	"https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon2-scaled.webp",
-	"https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon3-scaled.webp",
-	"https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon4-scaled.webp",
-	"https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon5-scaled.webp",
-	"https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon6-scaled.webp",
-	// "/images/salon/salon1.webp",
-	// "/images/salon/salon2.webp",
-	// "/images/salon/salon3.webp",
-	// "/images/salon/salon4.webp",
-	// "/images/salon/salon5.webp",
-	// "/images/salon/salon6.webp",
+	// "https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon1-scaled.webp",
+	// "https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon2-scaled.webp",
+	// "https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon3-scaled.webp",
+	// "https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon4-scaled.webp",
+	// "https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon5-scaled.webp",
+	// "https://www.dcservice.com.ua/wp-content/uploads/2026/04/salon6-scaled.webp",
+	"/images/salon/salon1.webp",
+	"/images/salon/salon2.webp",
+	"/images/salon/salon3.webp",
+	"/images/salon/salon4.webp",
+	"/images/salon/salon5.webp",
+	"/images/salon/salon6.webp",
 ];
 
 const sliderImgSize = "w-full aspect-[3/2] object-cover";
