@@ -59,7 +59,7 @@ export default function GalleryPage() {
 				<H2 className="text-center">Оберіть категорію</H2>
 
 				<Tabs selectedKey={activeTab} onSelectionChange={handleTabChange}>
-					<Tabs.ListContainer className="sticky top-26 z-10">
+					<Tabs.ListContainer className="sticky top-19 z-10 2xl:top-26">
 						<Tabs.List
 							className="rounded-none border-none bg-neutral-900"
 							aria-label="Галерея"

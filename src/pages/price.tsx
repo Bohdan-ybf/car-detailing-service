@@ -28,9 +28,9 @@ export default function PricePage() {
 				<H2 className="text-center">Оберіть категорію</H2>
 
 				<Tabs selectedKey={activeTab} onSelectionChange={handleTabChange}>
-					<Tabs.ListContainer className="sticky top-26 z-10">
+					<Tabs.ListContainer className="sticky top-19 z-10 2xl:top-26">
 						<Tabs.List
-							className="rounded-none border-none bg-neutral-900 border"
+							className="p-0 rounded-none border-none bg-neutral-900 border"
 							aria-label="Послуги"
 						>
 							{priceCategorie.map((category, index) => (
@@ -48,9 +48,9 @@ export default function PricePage() {
 					</Tabs.ListContainer>
 
 					{priceCategorie.map((category) => (
-						<Tabs.Panel key={category.id} id={category.id}>
+						<Tabs.Panel key={category.id} id={category.id} className="p-0">
 							<table className="w-full border-collapse">
-								<thead>
+								<thead className="sticky top-29 z-10 2xl:top-34 bg-background">
 									<tr>
 										<th className="w-1/2 p-4 text-center font-semibold">
 											Послуга
